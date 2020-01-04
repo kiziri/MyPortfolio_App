@@ -26,6 +26,8 @@ html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+  
 }
 </style>
 
@@ -77,35 +79,5 @@ html{
 	</table>
 </div>
 	
-<%-- 	<table>
-		<thead>
-			<tr>
-				<th>번호</th>
-				<th>제목</th>
-				<th>시작일</th>
-				<th>종료일</th>
-				<th>자료수</th>
-				<th>대표자</th>
-				<th>참여자수</th>
-				<th></th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody id="portfolioLsit">
-		<c:forEach items="${ list }" var="portfolio">
-			<tr>
-				<td>${ portfolio.no }</td>
-				<td><a href="/portfolio_detail.do?no=${ portfolio.no }"> ${ portfolio.title }</a></td>
-				<td>${ portfolio.startDate }</td>
-				<td>${ portfolio.endDate }</td>
-				<td>${ portfolio.dataCount }</td>
-				<td>${ portfolio.leader }</td>
-				<td>${ portfolio.memberCount }</td>
-				<td><input type="button" value="삭제" data-no="${ portfolio.no }"/></td>
-				
-			</tr>
-		</c:forEach>
-		</tbody>
-	</table> --%>
 </body>
 </html>
